@@ -1,5 +1,5 @@
 <img align="left" alt="My photo" src="images/MyPhoto.jpg" width="220" >
-<br> 
+<br>
 <br>
 <br>
 <img align="right" alt="Developer" src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350">
