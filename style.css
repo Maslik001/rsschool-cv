@@ -121,7 +121,7 @@
 }
 
 .personal img {
-    width: 75%;
+    width: 60%;
 }
 
 .personal h2 {
@@ -299,7 +299,7 @@
 }
 
 .skills-block {
-    padding: 10px 10px 0 0;
+    padding: 20px;
 }
 
 .skills-names {
@@ -307,9 +307,12 @@
     width: 100%;
     justify-content: space-between;
     border-bottom: 5px solid;
-    border-bottom-right-radius: 10px;
-    padding-top: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
     flex-wrap: wrap;
+    background-color: #e5e5e5;
+    align-items: center;
+    padding: 10px;
 }
 
 .skills-names h2 {
@@ -320,7 +323,6 @@
 
 .skills-level {
     margin: 0;
-    padding-top: 12px;
     text-align: center;
 }
 
