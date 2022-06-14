@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>-->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<header class="header">
+    <nav class="nav">
+        <ul class="menu">
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#code">Code Examples</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+    <div class="photo">
+        <div class="personal">
+            <img src="images/MyPhoto.jpg" alt="myPhoto">
+            <div id="contact"></div>
+            <div id="about"></div>
+            <h1>Aleksandr Maslenkov </h1>
+            <p>Frontend Developer</p>
+        </div>
+        <img src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Developer">
+    </div>
+    <div class="main-wrapper">
+        <div class="block-1">
+            <div class="block-1-topic">
+                <div class="contacts">Contacts</div>
+                <div class="about-me">About Me
+                    <div></div>
+                </div>
+            </div>
+            <div class="block-1-info">
+                <div class="contacts-info">
+                    <div class="contacts-info__names">
+                        <div class="contacts-info__links">
+                            <h3>A1 (Viber):</h3>
+                            <p class="contact"><a href="tel:+375291921091">+375 29 192-10-91</a></p>
+                        </div>
+                        <div class="contacts-info__links">
+                            <h3>Mail:</h3>
+                            <p class="contact"><a href="mailto:maslenkov2010@gmail.com">maslenkov2010@gmail.com</a></p>
+                        </div>
+                        <div class="contacts-info__links">
+                            <h3>Discord: </h3>
+                            <p class="contact"><a href="">Maslik001</a></p>
+                        </div>
+                        <div class="contacts-info__links">
+                            <h3>Skype: </h3>
+                            <p class="contact"><a href="">Maslik</a></p>
+                        </div>
+                        <div class="contacts-info__links">
+                            <h3>Linkedin: </h3>
+                            <p class="contact"><a href="https://www.linkedin.com/in/alexandr-maslenkov/">My Profile</a>
+                            </p>
+                        </div>
+                        <div class="contacts-info__links" id="skills">
+                            <h3>GitHub: </h3>
+                            <p class="contact" id="code"><a href="https://github.com/Maslik001">My Repository</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-me-info" id="aboutMeText"></div>
+            </div>
+        </div>
+        <div class="block-2">
+            <div class="block-2-topic">
+                <div class="my-skills" >My skills</div>
+                <div class="code-examples" >Code Examples</div>
+            </div>
+            <div class="block-2-info">
+                <div class="skills">
+                    <div class="skills-block">
+                        <div class="skills-names">
+                            <h2>HTML</h2>
+                            <p class="skills-level">Experienced</p>
+                        </div>
+                        <div class="skills-names">
+                            <h2>CSS (Bootstrap, SASS/SCSS, BEM)</h2>
+                            <p class="skills-level">Experienced</p>
+                        </div>
+                        <div class="skills-names">
+                            <h2>JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JS)</h2>
+                            <p class="skills-level">Basic</p>
+                        </div>
+                        <div class="skills-names">
+                            <h2>Git/GitHub</h2>
+                            <p class="skills-level">Basic</p>
+                        </div>
+                        <div class="skills-names">
+                            <h2>Figma / Adaptive layout</h2>
+                            <p class="skills-level">Basic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-examples-info">
+                    <p><code>function find_max(nums) {<br>
+                        let max_num = Number.NEGATIVE_INFINITY;<br>
+                        &nbsp;&nbsp; for (let num of nums) {<br>
+                        &nbsp;&nbsp;&nbsp; if (num > max_num) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; max_num = num;<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp; }<br>
+                        &nbsp;&nbsp;&nbsp; }<br>
+                        &nbsp;&nbsp; return max_num;<br>
+                        }<br>
+                        find_max([11,10,30,68,-15,29,4]);</code></p>
+                </div>
+            </div>
+        </div>
+        <div class="block-3">
+            <div class="block-3-topic">
+                <div class="education" id="education">Education</div>
+            </div>
+            <div class="learn-wrapper">
+                <div class="university">
+                    <div class="university-block">
+                        <div class="university__year">2011</div>
+                        <div class="university__name">Mogilev State A. Kuleshov University, Higher education Faculty of
+                            Economics and Law, Jurisprudence Lawyer
+                        </div>
+                    </div>
+                    <div class="university-block">
+                        <div class="university__year">2006</div>
+                        <div class="university__name">Mogilev State Polytechnic College, Expert Technology maintenance
+                            and repair of electrical equipment, Diploma in Engineering
+                        </div>
+                    </div>
+                </div>
+                <div class="liner-learn"></div>
+                <div class="courses">
+                    <div class="courses-block">
+                        <div class="courses__year">2022</div>
+                        <div class="courses__name">Computer Academy STEP Front-end development
+                        </div>
+                    </div>
+                    <div class="courses-block">
+                        <div class="courses__year">2017</div>
+                        <div class="courses__name">IT-school “MELA ROSSA” Front-end development</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lang">
+            <h2>Languages</h2>
+            <div class="rus">Russian - native speaker.</div>
+            <div class="eng">English - A2 (B1 in process…)</div>
+        </div>
+
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer-wrapper">
+        <div class="year"><p>&copy;2022 </p><a href="https://www.linkedin.com/in/alexandr-maslenkov/" target="_blank">Maslik</a>
+        </div>
+        <div class="logo"><a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg"
+                                                                               alt="rs-logo"></a></div>
+    </div>
+</footer>
+
+</html>
