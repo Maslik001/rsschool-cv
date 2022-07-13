@@ -19,8 +19,8 @@
 
 |Type of contact|Data|
 |-----:|:------|
-|A1(Viber):|<a href="tel:+375291921091">+375291921091|
-|Mail:|<a href = "mailto: Maslenkov2010@gmail.com">Maslenkov2010@gmail.com|
+|A1(Viber):|<a href="tel:+48518328727">+48 518-328-727|
+|Mail:|<a href = "mailto: maspoland22@gmail.com">maspoland22@gmail.com|
 |Discord:|Maslik001|
 |Skype:|Maslik|
 |Linkedin|<a href = "https://www.linkedin.com/in/alexandr-maslenkov/">My Profile|
