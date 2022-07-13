@@ -36,7 +36,7 @@ function textAnimation() {
 function typing_text(spans, count = 0, timeout = 0, text) {
     spans[count].classList.add('visible');
     if (spans[count].innerText === ' ' || spans[count].innerHTML === ' ') {
-        timeout = Math.floor(Math.random() * Math.floor(1000));
+        timeout = Math.floor(Math.random() * Math.floor(500));
         spans[count].classList.add('cursor');
     } else {
         timeout = 50;
